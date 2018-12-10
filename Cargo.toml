@@ -1,0 +1,16 @@
+[package]
+name = "aoc2018"
+version = "0.1.0"
+authors = ["Mark H. Colburn <colburn.mark@gmail.com>"]
+edition = "2018"
+license = "MIT"
+readme = "README.md"
+keywords = ["advent-of-code", "problem-solving"]
+repository = "https://github.com/markcol/aoc2018.git"
+description = "Solutions to Advent of Code 2018 in Rust."
+
+[dependencies]
+aoc-runner = "0.2"
+aoc-runner-derive = "0.2"
+chrono = "0.4"
+fnv = "1"
